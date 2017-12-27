@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://94.130.75.130')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('login//input_add_user_login'), '7(903) 729-07-98')
 
 WebUI.setText(findTestObject('login//input_add_user_password'), '334865')
@@ -32,4 +34,6 @@ WebUI.waitForElementVisible(findTestObject('login//input_confirmation_code'), 30
 WebUI.setText(findTestObject('login//input_confirmation_code'), '9')
 
 WebUI.click(findTestObject('login/next_btn'))
+
+WebUI.verifyElementVisible(findTestObject('login/string_sro'))
 

@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://94.130.75.130')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('login//input_add_user_login'), '7(985) 178-65-05')
 
 WebUI.setText(findTestObject('login//input_add_user_password'), '324806')
