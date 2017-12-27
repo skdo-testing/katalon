@@ -19,9 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://94.130.75.130')
+WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://94.130.75.130')
 
 WebUI.setText(findTestObject('login//input_add_user_login'), '7(985) 178-65-05')
 
