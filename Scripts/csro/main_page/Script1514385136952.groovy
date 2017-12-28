@@ -20,105 +20,83 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('null'))
 
-WebUI.navigateToUrl('http://94.130.75.130/#/')
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_add_user_login'), '7(985) 178-65-05')
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_add_user_password'), '324806')
+WebUI.setText(findTestObject('null'), 'чсро 2')
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_confirmation_code'), '9')
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__1'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_ (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_ (2)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__2'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_add_full_orgName'), 'чсро 2')
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__3'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_ _1'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_101300'))
+WebUI.setText(findTestObject('null'), 'Ленина')
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
+WebUI.setText(findTestObject('null'), '5')
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_ _2'))
+WebUI.setText(findTestObject('null'), '22')
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_ _3'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__4'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_addrstreet'), 'Ленина')
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_addrhouse'), '5')
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_addrroom'), '22')
+WebUI.setText(findTestObject('null'), 'test22@mail.ru')
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/td'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__6'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__3'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/li_ng-tns-c2-29 ui-dropdown-it'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('csro_main_page/Page_/input_add_msro__email'), 'test22@mail.ru')
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/label_'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span_ (3)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
+WebUI.setText(findTestObject('null'), '12')
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/span__6'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/td'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/span__6'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/span__3'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/span_ _4'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/label_empty'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/span_ _2'))
-
-WebUI.setText(findTestObject('csro_main_page/Page_/input_add_phoneextention'), '12')
-
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
-
-WebUI.click(findTestObject('csro_main_page/Page_/span__5'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

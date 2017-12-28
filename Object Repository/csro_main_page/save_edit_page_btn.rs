@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>save_edit_page_btn</name>
+   <tag></tag>
+   <elementGuidId>fe52bca4-cd87-47c2-893e-f94cfe432952</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Сохранить</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;layout-wrapper&quot;]/div[@class=&quot;layout-container menu-layout-static&quot;]/div[@class=&quot;layout-main&quot;]/ng-component[1]/div[@class=&quot;ui-g ui-fluid&quot;]/div[@class=&quot;ui-g-12 ui-lg-12&quot;]/div[@class=&quot;ui-g-12 ui-lg-12&quot;]/button[@class=&quot;ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
